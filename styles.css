@@ -5,42 +5,37 @@
 }
 
 .header {
-    height: 200px;
-    background-color: gray;
-    margin: auto;
-}
-
-.header input {
-    padding: 10px 0px;
-    border-radius: 10px;
-}
-
-.header button {
-    border-radius: 5px;
-}
-
-.sidebar {
-  display: inline-block;
-  background-color: lightblue;
-  width: 190px;
-  text-align: center;
-  padding: 10px 0px 10px 0px;
-}
-
-.mainmenu a {
-  margin: auto;
   display: block;
-  text-align: center;
-  border-radius: 5px;
-  width: 120px;
-  background-color: whitesmoke;
-  padding: 5px;
-  margin-top: 5px;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
+  height: 100%; /* 100% Full-height */
+  float: left;
+  clear: none;
+  left: 0;    
 }
 
-.mainmenu a:hover {
-  background-color: rgba(247, 201, 3, 255);
+/* The side navigation menu */
+.sidenav {
+  display: block;
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
 }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgba(247, 201, 3, 255);
+}
+
