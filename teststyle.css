@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 * {
   font-family: "Raleway", Helvetica, sans-serif;
@@ -19,12 +20,11 @@ header {
 }
 
 .sidebar {
-  width: 300px;
+  width: 400px;
   height: 100vh;
   padding: 20px;
   background-color: black;
   color: white;
-  /* border-right: 5px solid black; */
 }
 
 .sidebar a {
@@ -54,6 +54,12 @@ button {
   font-size: 40px;
   color: white;
   background-color: black;
+}
+
+button:hover {
+  transition: 0.3s;
+  color: black;
+  background-color: #f7c903;
 }
 
 .banner {
