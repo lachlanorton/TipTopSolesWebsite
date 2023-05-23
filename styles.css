@@ -69,7 +69,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border: 5px dashed #f7c903;
+  /* border: 5px dashed #f7c903; */
 }
 
 .menubutton {
